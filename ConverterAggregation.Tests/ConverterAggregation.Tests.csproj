@@ -9,6 +9,7 @@
     <CodeAnalysisRuleSet>..\code-analysis.ruleset</CodeAnalysisRuleSet>
     <GenerateDocumentationFile>false</GenerateDocumentationFile>
     <NoWarn>CA1707,S1066,SA1407,SA1600,CS8618,SA1000,SA1116,SA1118</NoWarn>
+    <RootNamespace>ConverterCompositionAndAggregation.Tests</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
     <AdditionalFiles Include="..\code-analysis.ruleset" Link="Properties\code-analisys.ruleset" />
@@ -28,11 +29,6 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ConverterDictionaryAggregation\ConverterDictionaryAggregation.csproj" />
-    <ProjectReference Include="..\EnglishDictionaryFactory\EnglishDictionaryFactory.csproj" />
-    <ProjectReference Include="..\GermanDictionaryFactory\GermanDictionaryFactory.csproj" />
-    <ProjectReference Include="..\ResourcesDictionaryFactory\ResourcesDictionaryFactory.csproj" />
-    <ProjectReference Include="..\RussianDictionaryFactory\RussianDictionaryFactory.csproj" />
-    <ProjectReference Include="..\ConverterDictionaryComposition\ConverterDictionaryComposition.csproj" />
+    <ProjectReference Include="..\ConverterAggregation\ConverterAggregation.csproj" />
   </ItemGroup>
 </Project>
