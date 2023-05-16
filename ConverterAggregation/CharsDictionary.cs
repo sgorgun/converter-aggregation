@@ -10,7 +10,7 @@ namespace ConverterDictionaryAggregation
         /// <summary>
         /// Gets or sets the dictionary of all possible characters.
         /// </summary>
-        public IReadOnlyDictionary<Сharacter, string>? Dictionary { get; set; }
+        public IReadOnlyDictionary<Character, string>? Dictionary { get; set; }
 
         /// <summary>
         /// Gets or sets the language string compliant with RFC 1766. Default value - "en-us".

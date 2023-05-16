@@ -3,7 +3,7 @@
     /// <summary>
     /// An enumeration consists of a set of words for all characters that a real number can contains.
     /// </summary>
-    public enum Сharacter : byte
+    public enum Character : byte
     {
         Zero,
         One,
