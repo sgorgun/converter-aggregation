@@ -17,7 +17,7 @@
             /// <param name="charsDictionary">The dictionary with rules of converting.</param>
             /// <exception cref="System.ArgumentNullException">Thrown when dictionary is null.</exception>
             /// <exception cref="System.ArgumentException">Thrown when charsDictionary.Dictionary is empty.</exception>
-            public Converter(CharsDictionary charsDictionary)
+            public Converter(CharsDictionary? charsDictionary)
             {
                 if (charsDictionary == null)
                 {
