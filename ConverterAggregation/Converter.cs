@@ -61,7 +61,7 @@ namespace ConverterDictionaryAggregation
                     '.' => this.charsDictionary.Dictionary![Character.Point],
                     ',' => this.charsDictionary.Dictionary![Character.Comma],
                     'E' => this.charsDictionary.Dictionary![Character.Exponent],
-                    _ => ' ',
+                    _ => throw new ArgumentException("Unknown character."),
                 });
                 sb.Append(' ');
             }
