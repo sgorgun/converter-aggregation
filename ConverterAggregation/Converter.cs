@@ -82,7 +82,7 @@
                     double.PositiveInfinity => this.charsDictionary.Dictionary![Character.PositiveInfinity],
                     double.NegativeInfinity => this.charsDictionary.Dictionary![Character.NegativeInfinity],
                     double.Epsilon => this.charsDictionary.Dictionary![Character.Epsilon],
-                    _ => string.Empty,
+                    _ => throw new ArgumentException("Unknown character."),
                 };
         }
     }
