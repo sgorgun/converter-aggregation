@@ -24,7 +24,7 @@
                     throw new ArgumentNullException(nameof(charsDictionary), "The charsDictionary can't be null.");
                 }
 
-                if (charsDictionary.Dictionary == null || charsDictionary.Dictionary.Count == 0)
+                if (charsDictionary.Dictionary!.Count == 0)
                 {
                     throw new ArgumentException("The dictionary is empty.", nameof(charsDictionary));
                 }
